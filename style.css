@@ -1,0 +1,1061 @@
+.nav12{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    justify-content: space-between;
+    margin-top: -5px;
+}
+.nav1{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+.logo1{
+    height: 50px;
+    width: 150px ;
+    margin-top: 10px;
+}
+.nav-link{
+    display: flex;
+    text-decoration: none;
+    padding: 9px 20px;
+    color: black;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.active,.nav-link:hover{
+    background-color: #deb887;
+    color: white;
+}
+
+ul{
+    margin-right: 2rem;
+    color: black;
+    font-size: large;
+}
+ul,li{
+    display: flex;
+    text-decoration: none;
+    position: relative; 
+    font-size: large;
+}
+
+.nav-link1{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    padding: 9px 20px;
+    font-size: 20px;
+}
+.nav-link1:hover{
+    background-color: #deb887;
+    color: white;
+    display: inline;
+}
+.unlist1{
+    display: none;
+    padding: 9px 20px;
+    font-size: large;
+}
+.unlist1 a{
+    text-decoration: none;
+    color: black;
+}
+.unlist1:hover{
+    background-color: #deb887;
+    color: white;
+}
+.dropdown {
+    position: relative;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.dropdown .link {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.6rem 1.3rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown i {
+    padding: 0px;
+    margin: 0;
+}
+.dropdown-menu {
+    position: absolute;
+    width: calc(100% + 3rem);
+    background-color: #fff;
+}
+.sub-link {
+    display: none;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #000;
+    padding: 0.6rem 1.5rem;
+}
+.dropdown:hover .sub-link {
+    display: block;
+}
+
+.dropdown .link:hover,
+.sub-link:hover {
+    background-color: #deb887;
+    color: #fff;
+    border-radius: 4px;
+}
+/*header css end*/
+
+.intro{
+    background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.6)), url(Bg_2.jpg);;
+    background-size: cover;
+    padding: 16% 0 6% 0;
+    text-align: center;
+    color: #fff;
+}
+.intro-head{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+.intro-para{
+    text-align: center;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-inline: auto;
+    inline-size: 550px;
+    line-height: 20px;
+    font-size: 15px;
+}
+.reserv{
+    display: inline-block;
+    font-size: 15px;
+    border: 3px solid burlywood;
+    border-radius: 4px;
+    padding: 15px 0;
+    margin-top: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.reserv a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 15px 56px;
+}
+.reserv:hover{
+    background-color: #deb887;
+    color: white;
+}
+/*Article end*/
+#section1{
+    width: 100%;
+}
+.main{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 4%;
+    box-sizing: border-box;
+}
+.main .img-div{
+    width: 90%;
+    margin-inline: auto;
+}
+.img-1{
+    max-height: 325px;
+    box-shadow: -12px -12px #deb887;
+}
+.story-div{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 32;
+}
+.story-head{
+    font-size: 30px;
+    padding: 8px 16px;
+}
+.h1color{
+    color: #deb887;
+}
+.story-para1{
+    font-size: 17px;
+    line-height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.story-para2{
+    font-size: 17px;
+    padding: 8px 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.story-div a{
+    color: black;
+}
+.quote-section{
+    height: 19rem;
+    background-image: url(Bg_5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+    text-align: center;
+}
+.quote{
+    font-size: 43px;
+    padding: 96px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.quote-credit{
+    font-size: 25px;
+    padding-left: 320px;
+    margin-bottom: 32px;
+}
+/*section1 end*/
+#menu-section{
+    text-align: center;
+    padding: 32px;
+}
+.heading{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 16px;
+}
+.p-heading{
+    margin-bottom: 48px;
+    padding: 0 24px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu-nav{
+    width: 42%;
+    margin-inline: auto;
+    text-align: center;
+}
+.menu-ul{
+    border: 1px solid #e4e4e4 ;
+    border-radius: 4px;
+    padding: 0 40px;
+    border-right: -40px;
+    text-align: center;
+}
+.active-menu,.menu-link:hover{
+    background-color: #deb887;
+    color: white;
+}
+.menu-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f5f5f5;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.menu-items{
+    padding: 20px 82px;
+}
+.drink1{
+    background-image:url(Drinks_1.jpg);
+
+}
+.item{
+    display: inline-block;
+    margin: 27px 16px;
+    background-size: cover;
+}
+.text{
+    padding-left: 10px;
+    padding-right: 13px;
+    color: white;
+}
+.item-heading{
+    font-size: 20px;
+    padding: 32px 16px 16px 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+.gallery-img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.item-para{
+    font-size: 12px;
+    margin: 0px 32px 8px 16px;
+    padding-bottom: 24px;
+}
+.price{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 8px 32px 16px 12px;
+}
+.drink2{
+    background-image:url(Drinks_1.jpg);
+}
+.drink3{
+    background-image:url(Drinks_1.jpg);
+}
+.lunch1{
+    background-image:url(Drinks_1.jpg);
+}
+.lunch2{
+    background-image:url(Drinks_1.jpg);
+}
+.lunch3{
+    background-image:url(Drinks_1.jpg);
+}
+.dinner1{
+    background-image:url(Drinks_1.jpg);
+}
+.dinner2{
+    background-image:url(Drinks_1.jpg);
+}
+.dinner3{
+    background-image:url(Drinks_1.jpg);
+}
+/*section2 end*/
+#gallery-section{
+    text-align: center;
+}
+.gallery{
+    padding: 0px;
+    display: inline-block;
+}
+.gallery-img{
+    width: 350px;
+    height: 250px;
+    margin: 24px 16px;
+}
+/*section3 end*/
+
+#customer-section{
+    padding: 32px;
+    text-align: center;
+}
+.customer-img{
+    width: 10%;
+    border-radius: 100%;
+    border: 1px solid #e4e4e4;
+    padding: 6px;
+}
+.customer-name{
+    margin-top: 24px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #deb887;
+}
+.customer-para{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 12px;
+}
+.customer-review{
+    padding: 0 12px;
+    margin-top: 32px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+}
+/*section4 end*/
+.contact-section{
+    clear: both;
+    margin: auto;
+    background-color: #d0a772;
+    color: white;
+}
+
+.contact{
+    display: inline-block;
+    width: 32%;
+    padding: 32px 0;
+    text-align: center;
+}
+
+.contact-details{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-align: left;   
+}
+.fas{
+    font-weight: 900;
+}
+/*section5 end*/
+.footer{
+    width: 93%;
+    height: 22rem;
+    display: inline-flex;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 48px;
+}
+.footer-elements{
+    max-height: 200px;
+    width: 20%;
+    margin: 16px 32px 135px 32px;
+    color: white;
+}
+.footer-heading{
+    border-bottom: 2px dotted rgba(207, 166, 113, 0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.footer-para{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    line-height: 25px;
+}
+.email{
+    background-color: black;
+    border: none;
+    font-size: 1rem;
+    line-height: 25px;
+    padding: 12px;
+    width: 90%;
+    color: white;
+}
+.subscribe{
+    background-color: #d0a772;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px;
+    line-height: 25px;
+    width: 100%;
+}
+.social{
+    margin-top: 32px;
+}
+.social a{
+    color: white;
+    font-size: 1.8rem;
+    margin: 8px;
+    text-decoration: none;
+}
+.fab{
+    font-weight: 400;
+}
+.copy-right{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    width: 93%;
+    background-color: #000;
+    color: white;
+    padding: 48px;
+    text-align: center;
+}
+
+
+/*MENU.HTML*/
+.top-section{
+    background-image: url(menu_img1.jpg);
+    background-size: cover;
+    height: 450px;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+}
+.top-h2{
+    position: relative;
+}
+.top-heading{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-top: 256px;
+    text-align: center;
+}
+.top-section::before{
+    background: black;
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    opacity: 0.8;
+}
+
+#reservation-section{
+    text-align: center;
+    padding: 48px;
+}
+.reservation-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 48px;
+    margin: 16px;
+    font-size: 35px;
+}
+.reservation-subheading{
+    margin-bottom: 48px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.form{
+    display: inline-block;
+    margin: 0px 64px;
+    text-align: left;
+}
+.form-heading{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px 0;
+}
+.form-input{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    width: 530px;
+    height: 22px;
+    margin: 16px;
+    padding: 16px;
+    border: 1px solid #cccccc;
+}
+.book-btn{
+    margin-top: 48px;
+    color: #deb887;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 16px 40px;
+    background-color: white;
+    border: 2px solid #deb887;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.book-btn:hover{
+    background-color: #deb887;
+    color: white;
+}
+
+/*STAFF HTML*/
+#staff-section{
+    text-align: center;
+    padding: 48px;
+}
+.staff-heading{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 48px;
+    margin: 16px;
+}
+.staff-subheading{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 48px;
+}
+.staff-gallery{
+    margin-top: 80px;
+    position: relative;
+    z-index: 1;
+}
+.staff-img{
+    margin: 0px 24px;
+    display: inline-flex;
+    width: 20%;
+    position: relative;
+}
+.staff-img img{
+    width: 100%;
+    border: 2px solid burlywood;
+}
+.content{
+    color: white;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    background-color: burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    z-index: 1;
+    opacity: 0;
+}
+.content li:hover .fab {
+
+    border-radius: 100%;
+    box-shadow: 0 0 0 5px rgba(255,255,255,0.3);
+}
+.staff-img:hover .content{
+    opacity: 100%;
+    transform: translateY(50% -50%);
+    transition: all 0.3s ease-in-out;
+}
+
+/*contact*/
+#contact-section{
+    text-align: center;
+}
+.contact-heading{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 48px;
+    margin: 16px;
+}
+.contact-subheading{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 48px;
+}
+.message{
+    border: 1px solid #cccccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    width: 40%;
+    margin: 16px;
+    text-align: left;
+    padding: 16px;
+}
+.send-message{
+    margin-top: 32px;
+    margin-bottom: 64px;
+    color: #deb887;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 16px 40px;
+    background-color: white;
+    border: 2px solid #deb887;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.send-message:hover{
+    background-color: #deb887;
+    color: white;
+}
+/*blog*/
+#blog-section{
+    text-align: center;
+}
+.blogs{
+    margin: 4% 3%;
+}
+.blog-card{
+    border: 1px solid #cccccc;
+    width: 25%;
+    display: inline-block;
+    height: 450px;
+    text-align: left;
+    padding: 1%;
+    margin: 2% 1%;
+}
+.card-heading{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 16px 32px;
+}
+.blog-card ul{
+    padding: 0 32px;
+    margin-bottom: 8px;
+}
+.blog-card ul li{
+    color: burlywood;
+    margin-right: 16px;
+}
+.blog-card p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 28px;
+    padding: 0 32px;
+    margin-bottom: 24px;
+}
+.blog-card .p2{
+    margin-bottom: 40px;
+}
+.blog-card:hover{ 
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url("Blogimg_1.jpg");
+    background-size: cover;
+    background-position: center;
+    color:#fff ;
+    transition: 0.5s;
+}
+.read-more-btn{
+    color: burlywood;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid burlywood;
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin: 0 32px;
+}
+.read-more-btn:hover{
+    background-color: burlywood;
+    color: white;
+}
+/*singleblog HTML*/
+
+.inline {
+    float: left;
+}
+
+.blog-img {
+    width: 70%;
+}
+
+.blog-img .img {
+    width: 700px;
+    height: 425px;
+    box-shadow: -12px -12px rgb(0 0 0 / 40%);
+    margin: 1%;
+
+}
+
+.blog-date {
+    background-color: burlywood;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.8rem 1rem;
+    border-radius: 4px;
+    float: right;
+    position: relative;
+    right: 250px;
+    top: 25px;
+}
+
+
+.main-content {
+    padding: 3% 12%;
+    text-align: left;
+}
+
+.main-content h3 {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.main-content ul {
+
+    margin: 0 1rem;
+}
+
+.main-content ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 0.5rem;
+}
+
+.color {
+    margin-left: 5px;
+    color: burlywood;
+}
+
+.main-content p {
+    font-size: 0.9rem;
+    line-height: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2rem 0;
+}
+
+.main-content blockquote {
+    font-size: 0.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 28px;
+    padding: 3rem 1.5rem;
+    border-left: 6px solid burlywood;
+}
+
+.all-comments {
+    padding: 10% 0;
+}
+
+.all-comments h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 2rem;
+}
+
+.comments {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.avatar-img {
+    width: 13%;
+    height: 3%;
+}
+
+.avatar-comments {
+    padding: 0 5%;
+}
+
+.avatar-comments h4,
+.avatar-comments p {
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    margin: 0;
+}
+
+
+.avatar-comments h4 {
+    margin-right: 347px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.comments-para {
+    padding: 0 5% 0 0;
+    font-family: verdana;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.avatar-comments p {
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    margin: 0;
+    font-family: verdana;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.reply-btn {
+    font-family: verdana;
+    font-size: 14px;
+    text-decoration: none;
+    color: #010101;
+    float: right;
+    text-align: right;
+    font-size: 16px;
+    padding: 12px 21px;
+    background: #f5f5f5;
+    border-radius: 6px;
+    transform: scale(0.8);
+}
+
+
+.reply-btn:hover {
+    background-color: #cfa671;
+    color: #ffffff !important;
+}
+
+.admin {
+    transform: scale(0.9);
+}
+
+.admin-img {
+    margin-left: 3rem;
+    border-radius: 100%;
+}
+
+.admin-comments {
+    padding-right: 0;
+}
+
+.post-comments {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2.5rem;
+}
+
+.left-form {
+    float: left;
+    margin: 1rem 6rem 1rem 0rem;
+}
+
+.leave-input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 325px;
+    height: 50px;
+    margin: 1rem 0;
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+.text-area {
+    margin: 2rem 0;
+}
+
+.text-area textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 325px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+.leave-input:focus,
+.text-area textarea:focus {
+    outline: burlywood;
+    border: 1px solid burlywood;
+}
+
+.comment-btn {
+    border: 1px solid burlywood;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 1.2rem 2.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: burlywood;
+
+}
+
+.comment-btn:hover {
+    background-color: burlywood;
+    color: #fff;
+}
+
+.side-bar {
+    text-align: left;
+    padding: 1%;
+    float: right;
+    width: 30%;
+}
+
+.side-bar h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 0.5rem 1rem;
+}
+
+
+.search-btn {
+
+    padding: 1rem 0rem;
+    border-radius: 10px;
+    background-color: #cccccc;
+    border: none;
+    display: inline;
+    transform: scale(0.8);
+    margin: 0;
+}
+
+.search {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.1rem 2rem;
+    width: 60%;
+    height: 40px;
+    text-align: left;
+    padding: 1rem;
+}
+
+.categories {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin: 1rem;
+    padding-left: 1.5rem;
+}
+
+.categories a {
+    text-decoration: none;
+    color: #000;
+}
+
+.categories a:hover {
+    color: burlywood;
+}
+
+.recent {
+    margin: 2rem;
+}
+
+.recent-post h3 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 2rem;
+}
+
+.recent-post {
+    margin: 5rem 0;
+}
+
+.recent-img {
+    float: left;
+    width: 90px;
+    height: 90px;
+
+}
+
+
+
+.recent-text ul {
+    margin-bottom: 0.5rem;
+    margin-left: 7rem;
+}
+
+.recent-text p {
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0.5rem;
+    margin-left: 7rem;
+}
+
+.recent-text li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    font-size: 0.7rem;
+}
+
+
+.recent-tag {
+    text-align: center;
+
+
+}
+
+.recent-tag ul {
+
+    margin-left: 2rem;
+}
+
+.recent-tag ul li {
+    display: inline-block;
+    margin: 3px;
+    text-align: left;
+    width: 26%;
+    list-style-type: none;
+    ;
+}
+
+
+
+
+
+.recent-tag ul li a {
+    text-align: center;
+    list-style: none;
+    padding: 10px 25px;
+    display: block;
+    background: #f5f5f5;
+    color: #222222;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 14px;
+    margin: 0.5rem 0;
+
+}
+
+.recent-tag ul li a:hover {
+    color: #ffffff;
+    background: #cfa671;
+}
